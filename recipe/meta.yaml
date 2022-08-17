@@ -1,5 +1,5 @@
 {% set name = "zdesk" %}
-{% set version = "2.7.1" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zdesk-{{ version }}.tar.gz
-  sha256: 7a9c11bee43973bcd9680d727d3c0359d35b434f5a0ff4514bbc5bd03e1afbe9
+  sha256: 9979be43469c577da14018f3cd3c2182962e17aa55cb9415269a3ce27b674ca5
 
 build:
   number: 0
